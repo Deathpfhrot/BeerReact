@@ -13,7 +13,7 @@ const Home = () =>{
 
             <figure>
                 <img src="/img/proriat.png" alt="proriat" />
-                <Link to={'/randomBeer'}>
+                <Link to={`/details/random`}>
                     <figcaption><h2>Random Beer</h2></figcaption>
                 </Link>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam mollitia aspernatur illum dolores doloribus libero odio corrupti qui? Vel.</p>
