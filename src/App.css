@@ -11,6 +11,7 @@
     
     .divHome figure img {
         width: 100%;
+        line-height: 0;
     }
     
     .divHome a {
