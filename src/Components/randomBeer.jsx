@@ -16,7 +16,7 @@ const Random = () =>{
             console.log(json)
             console.log(randome);
         })
-    }, []);
+    }, [randome]);
 
     return(
         <div className="itemDiv">

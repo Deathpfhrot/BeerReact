@@ -16,7 +16,7 @@ const Details = () =>{
                 setItem(json)
                 console.log(json)
             })
-    }, []);
+    }, [apiId]);
 
     return(
         <div class="itemDiv">

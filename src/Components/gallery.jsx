@@ -15,7 +15,7 @@ const Gallery = () =>{
             console.log(gal);
 
         })    
-    }, []);
+    }, [gal]);
 
     return(
         <div class="galleryUpperDiv">
