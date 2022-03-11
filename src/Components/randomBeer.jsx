@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
 import Navigation from "./navigation";
+import BackArrow from '../BackArrow.png'
 
 
 const Random = () =>{
@@ -28,7 +29,9 @@ const Random = () =>{
 
             {console.log(randome.name)}
 
-            <i class="fas fa-arrow-alt-left"><Link to="/">Back</Link></i>
+            <Link to="/">
+                <img src={BackArrow} alt="Arrow" />
+            </Link>
 
             <Navigation />
         </div>

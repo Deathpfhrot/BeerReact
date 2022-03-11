@@ -18,7 +18,7 @@ const Gallery = () =>{
     }, []);
 
     return(
-        <div>
+        <div class="galleryUpperDiv">
         {gal.map((ele, i) =>{
 
             return(

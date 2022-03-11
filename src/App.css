@@ -9,6 +9,10 @@
         padding: 2%;
     }
     
+    .divHome figure img {
+        width: 100%;
+    }
+    
     .divHome a {
         display: block;
         text-decoration: none;
@@ -36,6 +40,19 @@
         padding: 5%;
     }
     
+    .galleryPics article:nth-of-type(2) button {
+        display: block;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        border: transparent;
+        background-color: rgb(255, 183, 0);
+        color: white;
+    }
+    
+    .galleryPics article:nth-of-type(2) a {
+        text-decoration: none;
+    }
+    
     .galleryPics img {
         width: 50%;
     }
@@ -46,11 +63,21 @@
         place-items: center;
     }
     
-    .itemDiv img {
-        width: 10%;
+    .itemDiv img:nth-of-type(1) {
+        width: 15%;
+    }
+    
+    .itemDiv a:nth-of-type(1) {
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
     }
     
     .fasfas {
         font-size: 1rem;
         color: black;
+    }
+    
+    .galleryUpperDiv {
+        padding-bottom: 10rem;
     }

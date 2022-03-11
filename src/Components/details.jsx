@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom"
 import { useEffect, useState } from "react";
 import Navigation from "./navigation";
-
+import BackArrow from '../BackArrow.png'
 const Details = () =>{
 
     let apiId = useParams("_id")
@@ -29,8 +29,9 @@ const Details = () =>{
 
             {console.log(item.name)}
 
-
-            <i class="fas fa-arrow-alt-left"><Link to="/">Back</Link></i>
+            <Link to="/">
+                <img src={BackArrow} alt="Arrow" />
+            </Link>
         <Navigation />
 
         </div>
